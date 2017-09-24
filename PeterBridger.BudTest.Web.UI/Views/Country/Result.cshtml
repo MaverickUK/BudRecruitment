@@ -1,0 +1,14 @@
+﻿@model PeterBridger.BudTest.Web.Features.Country.CountryViewModel
+
+<h1>World Bank: Country search</h1>
+
+<h2>@Model.Name</h2>
+
+<ul>
+    <li>Region: @Model.AdminRegion</li>
+    <li>CapitalCity: @Model.CapitalCity</li>
+    <li>Latitude: @Model.Latitude</li>
+    <li>Longitude: @Model.Longitude</li>
+</ul>
+
+@Html.ActionLink("Search again", "Index")
